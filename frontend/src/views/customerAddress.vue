@@ -118,7 +118,8 @@
 
             <div class="k-fe field" v-if="showadd1 == true">
               <p class="control">
-                <button class="k-bu button">บันทึกการเปลี่ยนแปลง</button>
+                <button class="k-bu button" @click="changeAddress()">
+                บันทึกการเปลี่ยนแปลง</button>
               </p>
             </div>
             <!--1-->
